@@ -1,0 +1,41 @@
+#sticky{
+	position: sticky;
+	top: 0px;
+}
+
+div{
+	height: 20px;
+	background-color:#C2A185;
+	text-align: center;
+}
+body{
+	background-image: url('bgart.png');
+}
+
+#awal {
+  border: 1px solid #B6977D;
+  background-color: #B6977D;
+  text-align: center;
+	height: 60px;
+	padding-bottom:30px; 
+}
+
+a:link  {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration-color: royalblue;
+}
+
+table{
+  padding-left: 40px;
+  padding-right: 100px;
+}
