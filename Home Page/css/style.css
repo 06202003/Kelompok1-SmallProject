@@ -1,15 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 #sticky{
 	position: sticky;
 	top: 0px;
-}
-
-div{
-	height: 20px;
-	background-color:#C2A185;
+  background-color:#C2A185;
 	text-align: center;
 }
+
 body{
-	background-image: url('bgart.png');
+	background: url(../src/bgart.png);
 }
 
 #awal {
@@ -17,7 +19,7 @@ body{
   background-color: #B6977D;
   text-align: center;
 	height: 60px;
-	padding-bottom:30px; 
+	padding-top: 25px;
 }
 
 a:link  {
@@ -38,4 +40,19 @@ a:hover {
 table{
   padding-left: 40px;
   padding-right: 100px;
+  border-spacing: 50px;
+}
+td{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.indent{
+  text-indent: 60px;
+  text-align: justify;
+  line-height: 2;
+  font-size: 20px;
+}
+.nobord{
+  border: none;
 }
