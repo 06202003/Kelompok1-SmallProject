@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.sticky{
+	position: relative;
+	top: 0px;
+  background-color:#C2A185;
+	text-align: center;
+  height: 35px;
+  padding-top: 10px ;
+  font-size: 20px;
+}
+.sticky2{
+	position: sticky;
+	top: 0px;
+  background-color:#C2A185;
+	text-align: center;
+  height: 50px;
+  padding-top: 5px ;
+  font-size: 5px;
+}
+
+body{
+	background-color: gray;
+}
+
+.awal {
+  border: 1px solid #B6977D;
+  background-color: #B6977D;
+  text-align: center;
+	height: 150px;
+	padding-top: 30px;
+  font-size: 30px;
+  font-family: Helvetica;
+  font-weight: lighter;
+}
+
+a{
+  font-size: 20px;
+}
+a:link  {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration-color: royalblue;
+}
+
+.table{
+  border: 2;
+}
+
+
+.slider {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  margin: 0px 0;
+  background-color: #C2A185;;
+}
+.slides {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+.slides::-webkit-scrollbar {
+   width: 3px; 
+   height: 8px; 
+  }
+
+.slides::-webkit-scrollbar-thumb { 
+  background: black; 
+  border-radius: 5px;
+ }
+
+.slides::-webkit-scrollbar-track { 
+  background: gray; 
+}
+
+.slides > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 300px;
+  height: 200px;
+  margin: 5px;
+  border-radius: 4px;
+  background: #fff;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+  border: 1px solid #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-size: 100%;
+}
+
+
+.border{
+  border: 2px solid white;
+  width: 600px;
+}
+
+.border2{
+  border: 2px solid white;
+  width: 1000px;
+}
+
+.mid{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
