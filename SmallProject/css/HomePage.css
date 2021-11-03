@@ -50,13 +50,14 @@ table{
   padding-left: 40px;
   padding-right: 100px;
   border-spacing: 50px;
-  
 }
+
 td{
   border-radius: 30px;
   padding: 10px;
 
 }
+
 .indent{
   text-indent: 60px;
   text-align: justify;
@@ -66,4 +67,52 @@ td{
 }
 .nobord{
   border: none;
+}
+
+.slider {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  margin: 0px 0;
+  background-color: #C2A185;;
+}
+.slides {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+.slides::-webkit-scrollbar {
+   width: 3px; 
+   height: 8px; 
+  }
+
+.slides::-webkit-scrollbar-thumb { 
+  background: black; 
+  border-radius: 5px;
+ }
+
+.slides::-webkit-scrollbar-track { 
+  background: gray; 
+}
+
+.slides > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 600px;
+  height: 200px;
+  margin: 5px;
+  border-radius: 4px;
+  background: white;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+  border: 1px solid #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-size: 100%;
 }
