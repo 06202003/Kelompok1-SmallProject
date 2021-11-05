@@ -6,7 +6,7 @@
   #sticky{
       position: sticky;
       top: 0px;
-    background-color:#C2A185;
+    background-color:rgba(34,64,195,0.87);
       text-align: center;
     height: 35px;
     padding-top: 10px ;
@@ -14,8 +14,8 @@
     z-index: 1;
   }
   #awal {
-    border: 1px solid #B6977D;
-    background-color: #B6977D;
+    
+    background: linear-gradient(0deg, rgba(34,64,195,0.87) 3%, rgba(161,101,17,0.5301470930168943) 52%, rgba(0,255,127,0.5721638997395833) 100%);;
     text-align: center;
       height: 100px;
       padding-top: 30px;
@@ -23,8 +23,15 @@
     font-family: Helvetica;
     font-weight: lighter;
   }
+  .kananatas{
+    padding-top: 5px;
+    padding-right: 20px;
+    height: 30px;
+    background-color: rgba(0,255,127,0.5721638997395833);
+    text-align: right;
+  }
   body{
-    background: url(../src/bgbali.png);
+    background: url(../src/bgsulut.png);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -79,7 +86,7 @@
     font-size: 15px;
     text-align: justify;
     line-height: 2;
-    background-color:rgba(149, 181, 247,0.5);
+    background-color:rgba(74, 201, 233, 0.5);
   }
   .jud{
     font-size: 30px;
@@ -111,17 +118,10 @@
   height: 100%;
   backface-visibility: hidden;
 }
-
-.depan {
-  background-color: #bbb;
-  color: black;
-}
-
 .belakang {
-  background-color: #2980b9;
-  color: white;
   transform: rotateY(180deg);
 }
+
 img{
   width: 400px;
   height: 300px;

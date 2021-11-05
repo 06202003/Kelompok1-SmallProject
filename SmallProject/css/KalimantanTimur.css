@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  #sticky{
+    position: sticky;
+    top: 0px;
+    background-color:rgba(34,64,195,0.87);
+    text-align: center;
+    height: 35px;
+    padding-top: 10px ;
+    font-size: 20px;
+    z-index: 2;
+  }
+
+  .kananatas {
+    padding-top: 5px;
+    padding-right: 20px;
+    height: 30px;
+    background-color: rgba(0,255,127,0.5721638997395833);
+    text-align: right;
+  }
+
+  body {
+    background: url(../src/bg.png);
+  }
+  
+ #awal {
+
+    background: linear-gradient(0deg, rgba(34,64,195,0.87) 3%, rgba(161,101,17,0.5301470930168943) 52%, rgba(0,255,127,0.5721638997395833) 100%);
+    text-align: center;
+    height: 100px;
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: Helvetica;
+    font-weight: lighter;
+  }
+
+ a{
+    font-size: 20px;
+  }
+ a:link  {
+    color: black;
+    text-decoration: none;
+  }
+  
+ a:visited {
+    color: black;
+    text-decoration: none;
+  }
+  
+ a:hover {
+    color: white;
+    text-decoration-color: royalblue;
+  }
+
+  h2 {
+    color: black;
+    text-align: center;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-style: hidden;
+    background-color: #d57013;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  h3 {
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-style: hidden;
+    background-color: #d57013;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  h4 {
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-style: hidden;
+    background-color: #d57013;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  h5 {
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-style: hidden;
+    background-color: #d57013;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  .tengah {
+    border: 1px solid white;
+    width: 780px;
+    border-style: hidden;
+    background-color: #d57013;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+  }
+
+  .artikel {
+    border: 1px solid white;
+    width: 1000px;
+    border-style: hidden;
+    background-color: #d57013;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+  }
+
+  .galeri {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .image-box {
+    margin: 0 1%;
+    flex-grow: 1;
+    flex-basis: 0;
+    transition: 1s;
+  }
+
+  .image-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1.5s;
+  }
+
+  .image-box:hover {
+    flex-basis: 50%;
+  }
+
+  .hiden {
+    background-color:#f30101;
+    height: 300px;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .hiden2 {
+    transform: rotateY(180deg);
+  }
+
+  .hiden3 {
+    position: fixed;
+    margin-left: 250px;
+    border-radius: 10px;
+    font-size: 1em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+  }
+
+  #suprise {
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+
+  .transparan{
+    background-color: transparent;
+    width: 1110px;
+    height: 400px;
+    perspective: 1000px;
+   }
+
+  .posisi{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 2s;
+  transform-style: preserve-3d;
+ }
+
+  .transparan:hover .posisi {
+  transform: rotateY(180deg);
+ }
+
+  .hiden, .hiden2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}

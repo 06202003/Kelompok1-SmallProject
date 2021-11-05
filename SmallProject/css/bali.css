@@ -6,22 +6,29 @@
   #sticky{
       position: sticky;
       top: 0px;
-    background-color:#C2A185;
+      background-color:rgba(34,64,195,0.87);
       text-align: center;
-    height: 35px;
-    padding-top: 10px ;
-    font-size: 20px;
-    z-index: 1;
+      height: 35px;
+      padding-top: 10px ;
+      font-size: 20px;
+      z-index: 1;
   }
   #awal {
-    border: 1px solid #B6977D;
-    background-color: #B6977D;
+    
+    background: linear-gradient(0deg, rgba(34,64,195,0.87) 3%, rgba(161,101,17,0.5301470930168943) 52%, rgba(0,255,127,0.5721638997395833) 100%);
     text-align: center;
       height: 100px;
       padding-top: 30px;
     font-size: 30px;
     font-family: Helvetica;
     font-weight: lighter;
+  }
+  .kananatas{
+    padding-top: 5px;
+    padding-right: 20px;
+    height: 30px;
+    background-color: rgba(0,255,127,0.5721638997395833);
+    text-align: right;
   }
   body{
     background: url(../src/bgbali.png);
@@ -51,7 +58,7 @@
     text-align: center;
   }
 
-  h1{
+  #judul1{
     font-size: 60px;
     font-family: Verdana;
   }
@@ -66,7 +73,7 @@
     margin-right: 60px;
     margin-left: 60px;
     border-spacing: 50px;
-    
+
   }
   td{
     font-family: verdana;
@@ -79,7 +86,7 @@
     font-size: 15px;
     text-align: justify;
     line-height: 2;
-    background-color:rgba(248, 134, 4, 0.637);
+    background-color:rgba(248, 134, 4, 0.3);
   }
   .jud{
     font-size: 30px;
@@ -112,17 +119,13 @@
   backface-visibility: hidden;
 }
 
-.depan {
-  background-color: #bbb;
-  color: black;
-}
-
 .belakang {
-  background-color: #2980b9;
-  color: white;
   transform: rotateY(180deg);
 }
 img{
   width: 400px;
   height: 300px;
+}
+.formcontact{
+  font-size: 40px;
 }
