@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  #sticky{
+      position: sticky;
+      top: 0px;
+      background-color:rgba(34,64,195,0.87);
+      text-align: center;
+      height: 35px;
+      padding-top: 10px ;
+      font-size: 20px;
+      z-index: 1;
+  }
+  #awal {
+    
+    background: linear-gradient(0deg, rgba(34,64,195,0.87) 3%, rgba(161,101,17,0.5301470930168943) 52%, rgba(0,255,127,0.5721638997395833) 100%);
+    text-align: center;
+      height: 100px;
+      padding-top: 30px;
+    font-size: 30px;
+    font-family: Helvetica;
+    font-weight: lighter;
+  }
+  .kananatas{
+    padding-top: 5px;
+    padding-right: 20px;
+    height: 30px;
+    background-color: rgba(0,255,127,0.5721638997395833);
+    text-align: right;
+  }
+  a{
+    font-size: 20px;
+  }
+  .sticky:link  {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .sticky:visited {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .sticky:hover {
+    color: white;
+    text-decoration-color: royalblue;
+  }
+
+
+  body{
+    background: url(../src/bgref.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  table{
+    border-spacing: 30px;
+  }
+  
+  th{
+    font-size: 30px;
+    font-family: Verdana ;
+  }
