@@ -50,13 +50,14 @@
 
 
   body{
-    background: url(../src/bgref.jpg);
+    background: url(../src/bgreferences.png);
     background-repeat: no-repeat;
     background-size: cover;
 
   }
   table{
     border-spacing: 30px;
+    margin: 0px 60px 30px 60px;
   }
   
   th{
