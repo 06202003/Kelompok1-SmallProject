@@ -61,8 +61,8 @@
 
   .contact{
       margin: auto;
-      width: 500px;
-      margin-top: 30px ;
+      margin-top: 30px;
+      width: 610px;
       border: 3px inset;
       padding: 10px;
   }
@@ -79,4 +79,6 @@
   }
   textarea{
       font-size: 15px;
+      width: 600px;
+      resize: vertical;
   }
